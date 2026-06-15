@@ -2,6 +2,8 @@
 
 TaskBoard is a small task management web application written in pure PHP without a framework. Users can register, sign in, create categories, and perform full CRUD operations on their own tasks.
 
+Repository: https://github.com/bussetatar/taskboard-mvc
+
 ## Features
 
 - User registration, login, logout, sessions, and authentication middleware
