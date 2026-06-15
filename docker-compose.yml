@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DB_PATH: /app/storage/app.sqlite
+    volumes:
+      - taskboard_data:/app/storage
+
+volumes:
+  taskboard_data:

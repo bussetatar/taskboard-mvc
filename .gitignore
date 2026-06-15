@@ -1,0 +1,4 @@
+/storage/*.sqlite
+/.idea/
+/.vscode/
+*.log
